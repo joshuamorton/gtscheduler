@@ -16,7 +16,7 @@
 
 			<p />To use the tool, begin by clicking the start button below.  You'll then be prompted to enter the year and semester for which you are registering.  If instead you would like tos skip this process, you can simply jump to www.gtscheduler.heroku.com/tool/[year]/[semester].  From there you will be prompted for further information.
 
-			<h1 ><a href='http://gtscheduler.heroku.com/tool/'>Start!</a></h1>
+			<h1 ><a href='http://gtscheduler.heroku.com/tool'>Start!</a></h1>
 	</div>
 </body>
 </html>
