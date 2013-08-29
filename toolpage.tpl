@@ -10,9 +10,9 @@
 		<div id="contentBody">
 			<form id = 'enterInfo'>
 				<input type='select' name='year'>
-					<option value='2013' {{'selected=\'selected\'' if year is '2013' else ''}}>2013</option>
-					<option value='2014' {{'selected=\'selected\'' if year is '2014' else ''}}>2014</option>
-					<option value='2015' {{'selected=\'selected\'' if year is '2015' else ''}}>2015</option>
+					<option value='2013'>2013</option>
+					<option value='2014'>2014</option>
+					<option value='2015'>2015</option>
 				</input>
 				<input type='select' name='semester'>
 					<option value='fall'>fall</option>
