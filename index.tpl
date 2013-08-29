@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="static/gtWebapp.css">
+	<link rel="stylesheet" type="text/css" href="/static/gtWebapp.css">
 </head>
 <body>
 	<div id="container">
