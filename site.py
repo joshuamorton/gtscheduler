@@ -13,5 +13,10 @@ def index():
 def getStaticFile(path):
 	return static_file(path, root='static')
 
+@route('/tool')
+@route('/tool/<year>')
+def toolPage(year = '2013'):
+	return template('tool')
+
 
 run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
