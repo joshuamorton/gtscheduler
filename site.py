@@ -1,13 +1,17 @@
 #imports the some relevant tools from the bottle.py module.  These tools will be explained later
-from bottle import run, route, template
+from bottle import run, route, template, static_file
 
 #imports the os module, this is used in the run statement at the very end of the tool, this makes the system golive on heroku.
 import os
 
+#the route modifier defines 
 @route('/')
 def index():
 	return template('index')
 
+@route('/resources/<filename>')
+def getStaticFile(filename):
+	return static_file(filename, root='resources')
 
 
 
