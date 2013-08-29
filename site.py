@@ -9,11 +9,9 @@ import os
 def index():
 	return template('index')
 
-@route('/resources/<filename>')
-def getStaticFile(filename):
-	return static_file(filename, root='http://gtscheduler.herokuapp.com/resources')
-
-
+@route('/static/:path#.+#', name='static')
+def getStaticFile(path):
+	return static_file(path, root='static')
 
 
 run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))

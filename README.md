@@ -16,3 +16,6 @@ This README will explain anything about the inner workings of the code, and cont
             #http://www.w3schools.com/tags/default.asp
             #http://www.w3schools.com/cssref/default.asp
         #additionally, some javascript related resources were used for some of the html5 and canvas related functionality.  This repository contains a file named "localtool.py" that contains a similar version of the tool that runs in python.  It uses the Calico Graphics module to achieve a similar user input and output as the html5 canvas tool does in this webapp.
+        #for adding static files like css and javascript in bottle
+                #http://stackoverflow.com/questions/13729394/loading-css-and-javascript-with-with-bottle-py
+                #http://stackoverflow.com/questions/6978603/how-to-load-a-javascript-or-css-file-into-a-bottlepy-template
