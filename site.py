@@ -11,7 +11,7 @@ def index():
 
 @route('/resources/<filename>')
 def getStaticFile(filename):
-	return static_file(filename, root='resources')
+	return static_file(filename, root='http://gtscheduler.herokuapp.com/resources')
 
 
 
